@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: https://juice-app.obs-task.com/
+    - host: juice-app.obs-task.com
       http:
         paths:
           - pathType: Prefix
@@ -15,4 +15,3 @@ spec:
                 port:
                   number: 80
             path: /
-
